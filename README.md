@@ -37,7 +37,7 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
 - Speak Word button generating avatar video.
 - Pronunciation scoring with dynamic feedback (color-coded for performance).
   
-![App Demo](./assets/screenshots/home.png)
+![App Demo](assets/video_start.mp4)
 
 ---
 
