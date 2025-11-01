@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+# AI-Powered English Vocabulary Learning App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application for learning English vocabulary with AI-powered features, including talking avatars, pronunciation scoring, and personalized word practice. Built using **React Native** and **Expo**.
 
-## Get started
+---
 
-1. Install dependencies
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+
+---
+
+## Features
+
+- Browse and learn new English vocabulary with definitions.
+- **Text-to-Speech Avatars**: Generate AI-powered avatar videos that pronounce words.
+- **Pronunciation Scoring**: Record your voice and get instant feedback on pronunciation accuracy.
+- Next/Previous word navigation with cached video playback for already generated words.
+- Track your learning progress with difficulty badges.
+- Smooth, mobile-friendly interface built with **React Native** and **Expo**.
+
+---
+
+## Demo
+
+Include screenshots or GIFs of the app here:
+
+- Home screen showing word, definition, and difficulty badge.
+- Speak Word button generating avatar video.
+- Pronunciation scoring with dynamic feedback (color-coded for performance).
+
+---
+
+## Technologies Used
+
+- **React Native & Expo** – Cross-platform mobile development.
+- **TypeScript** – Type safety for better developer experience.
+- **Expo AV** – Video and audio handling.
+- **SpeechAce API** – Pronunciation scoring.
+- **Heygen API** – AI-generated avatar videos.
+- **React Navigation** – Screen navigation.
+- **Async Storage / FileSystem** – Caching videos locally.
+- **.env** – Storing API keys securely.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/yourusername/ai-english-vocab.git](https://github.com/hcatakli/Lavatar.git)
+```
+2. Install dependencies:
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+3. Set up environment variables (see [Environment Variables](#environment-variables))
+4. Start the app:
 
 ```bash
-npm run reset-project
+   npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
+## Usage
 
-## Learn more
+- Navigate through words using Next and Previous buttons.
+- Press Speak Word to generate or play the avatar video for the current word.
+- Press the microphone button to record your pronunciation.
+- Receive instant feedback with a color-coded score for your pronunciation.
+- Videos of previously generated words are cached and played automatically.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Environment Variables
+1. Create a .env file at the root of the project:
 
-## Join the community
+```bash
+   HEYGEN_API_KEY=your_heygen_api_key
+   SPEECHACE_API_KEY=your_speechace_api_key
+   ELEVEN_API_KEY=your_eleven_labs_api_key
+```
 
-Join our community of developers creating universal apps.
+2. Then import in your code using:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+   import { HEYGEN_API_KEY, SPEECHACE_API_KEY } from '@env';
+```
+
+  
