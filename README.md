@@ -43,9 +43,9 @@ Include screenshots or GIFs of the app here:
 - **Expo AV** – Video and audio handling.
 - **SpeechAce API** – Pronunciation scoring.
 - **Heygen API** – AI-generated avatar videos.
+- **ElevenLabs API** - AI-generated voices
 - **React Navigation** – Screen navigation.
 - **Async Storage / FileSystem** – Caching videos locally.
-- **.env** – Storing API keys securely.
 
 ---
 
