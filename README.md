@@ -20,6 +20,7 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
 ![Socring Voice](assets/images/green.jpg)
 ![Diffirent Pronunciation](assets/images/sesler.jpg)
 
+
 ---
 ## Features
 
