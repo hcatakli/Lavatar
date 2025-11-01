@@ -17,7 +17,7 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
 
 ## Screenshots
 ![Home Screen](./assets/screenshots/home.png)
-![Avatar Video](./assets/screenshots/avatar.png)
+![Avatar Video](./assets/video_start.mp4)
 
 ---
 ## Features
@@ -37,7 +37,7 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
 - Speak Word button generating avatar video.
 - Pronunciation scoring with dynamic feedback (color-coded for performance).
   
-![App Demo](https://youtube.com/shorts/a_nuoXqC0mk?feature=share)
+![App Demo](./assets/screenshots/home.png)
 
 ---
 
@@ -101,10 +101,3 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
    import { HEYGEN_API_KEY, SPEECHACE_API_KEY } from '@env';
 ```
 
-- Örnek `.env.example` dosyası ekleyip kullanıcıların hızlı kopyalamasını sağlayabilirsin:  
-```md
-Create a `.env` file:
-HEYGEN_API_KEY=your_key
-SPEECHACE_API_KEY=your_key
-ELEVEN_API_KEY=your_key
-  
