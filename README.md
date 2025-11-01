@@ -1,6 +1,6 @@
 # AI-Powered English Vocabulary Learning App
 
-A mobile application for learning English vocabulary with AI-powered features, including talking avatars, pronunciation scoring, and personalized word practice. Built using **React Native** and **Expo**.
+Learn English vocabulary interactively with AI avatars, pronunciation scoring, and personalized word practice.
 
 ---
 
@@ -15,11 +15,16 @@ A mobile application for learning English vocabulary with AI-powered features, i
 
 ---
 
+## Screenshots
+![Home Screen](./assets/screenshots/home.png)
+![Avatar Video](./assets/screenshots/avatar.png)
+
+---
 ## Features
 
 - Browse and learn new English vocabulary with definitions.
-- **Text-to-Speech Avatars**: Generate AI-powered avatar videos that pronounce words.
-- **Pronunciation Scoring**: Record your voice and get instant feedback on pronunciation accuracy.
+- 🧑‍🏫**Text-to-Speech Avatars**: Generate AI-powered avatar videos that pronounce words.
+-  🎤**Pronunciation Scoring**: Record your voice and get instant feedback on pronunciation accuracy.
 - Next/Previous word navigation with cached video playback for already generated words.
 - Track your learning progress with difficulty badges.
 - Smooth, mobile-friendly interface built with **React Native** and **Expo**.
@@ -28,11 +33,11 @@ A mobile application for learning English vocabulary with AI-powered features, i
 
 ## Demo
 
-Include screenshots or GIFs of the app here:
-
 - Home screen showing word, definition, and difficulty badge.
 - Speak Word button generating avatar video.
 - Pronunciation scoring with dynamic feedback (color-coded for performance).
+  
+![App Demo](https://youtube.com/shorts/a_nuoXqC0mk?feature=share)
 
 ---
 
@@ -54,7 +59,7 @@ Include screenshots or GIFs of the app here:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/yourusername/ai-english-vocab.git](https://github.com/hcatakli/Lavatar.git)
+   git clone https://github.com/hcatakli/Lavatar.git
 ```
 2. Install dependencies:
 
@@ -96,4 +101,10 @@ Include screenshots or GIFs of the app here:
    import { HEYGEN_API_KEY, SPEECHACE_API_KEY } from '@env';
 ```
 
+- Örnek `.env.example` dosyası ekleyip kullanıcıların hızlı kopyalamasını sağlayabilirsin:  
+```md
+Create a `.env` file:
+HEYGEN_API_KEY=your_key
+SPEECHACE_API_KEY=your_key
+ELEVEN_API_KEY=your_key
   
