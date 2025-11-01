@@ -16,8 +16,9 @@ Learn English vocabulary interactively with AI avatars, pronunciation scoring, a
 ---
 
 ## Screenshots
-![Home Screen](./assets/screenshots/home.png)
-![Avatar Video](./assets/video_start.mp4)
+![Home Screen](assets/images/kayit.jpg)
+![Socring Voice](assets/images/green.jpg)
+![Diffirent Pronunciation](assets/images/sesler.jpg)
 
 ---
 ## Features
